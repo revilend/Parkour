@@ -250,7 +250,7 @@ export default function S7Production() {
             <PanelTitle tone="flux">Tizimlar</PanelTitle>
             <div className="space-y-1.5 font-mono text-[12px]">
               {[
-                ["Coyote / Buffer", "0.120 / 0.150 s"],
+                ["Coyote / Buffer", "0.150 / 0.100 s"],
                 ["Flow kirish", "2.5 s uzluksiz ≥ 4.5 m/s"],
                 ["Flow grace", "1.4 s"],
                 ["KC maks / tiklash", "100 / 6.0–10.8 per s"],

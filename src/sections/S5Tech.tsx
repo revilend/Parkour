@@ -441,8 +441,8 @@ if (bReachable && distance > reach * 0.82f && JumpBufferedThisFrame)
           ]}
           compact
           rows={[
-            ["Coyote Time", "CoyoteTime", "0.120 s", "7 kadr"],
-            ["Jump Buffer", "JumpBufferTime", "0.150 s", "9 kadr"],
+            ["Coyote Time", "CoyoteTime", "0.150 s", "9 kadr"],
+            ["Jump Buffer", "JumpBufferTime", "0.100 s", "6 kadr"],
             ["Qirra bagʻrikengligi", "LedgeForgiveness", "±0.35 m", ""],
             ["Rel magneti", "RailMagnetRadius", "0.80 m", ""],
             ["Qoʻnish tortishi", "LandingSnapDistance", "1.20 m", "nishab < 12°"],
