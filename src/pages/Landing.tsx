@@ -398,7 +398,7 @@ export default function Landing() {
           <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {[
               ["7.5 / 11.0", "Yugurish / sprint (m/s)"],
-              ["0.120 / 0.150", "Coyote / Buffer (s)"],
+              ["0.150 / 0.100", "Coyote / Buffer (s)"],
               ["90° → 102°", "FOV dinamikasi"],
               ["84 → 132", "Adaptiv musiqa BPM"],
             ].map(([v, l]) => (

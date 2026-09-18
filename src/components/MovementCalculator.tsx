@@ -1,8 +1,8 @@
 import { useMemo, useState } from "react";
 
 const G_REAL = 9.8;
-const COYOTE_FRAMES = 7;
-const BUFFER_FRAMES = 9;
+const COYOTE_FRAMES = 9;
+const BUFFER_FRAMES = 6;
 
 type SliderProps = {
   label: string;
@@ -145,8 +145,8 @@ export default function MovementCalculator() {
               { k: "Havo vaqti", v: `${m.tAir.toFixed(3)} s` },
               { k: "Gap · yugurish", v: `${m.gapRun.toFixed(2)} m` },
               { k: "Gap · sprint", v: `${m.gapSprint.toFixed(2)} m` },
-              { k: `Coyote (${COYOTE_FRAMES} kadr)`, v: "0.117 s" },
-              { k: `Buffer (${BUFFER_FRAMES} kadr)`, v: "0.150 s" },
+              { k: `Coyote (${COYOTE_FRAMES} kadr)`, v: "0.150 s" },
+              { k: `Buffer (${BUFFER_FRAMES} kadr)`, v: "0.100 s" },
             ].map((cell) => (
               <div key={cell.k} className="bg-ink-850 px-3 py-2.5">
                 <p className="label-mono text-[10px] text-slag">{cell.k}</p>

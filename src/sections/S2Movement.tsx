@@ -431,8 +431,8 @@ v_out = v_in * PROD(retention_i) + SUM(linkBonus) - drag_loss`}
           ]}
           compact
           rows={[
-            ["Coyote Time", "0.120 sek", "7 kadr", "Platformadan yugurib chiqqach sakrash mumkin"],
-            ["Jump Buffer", "0.150 sek", "9 kadr", "Yerga tegishdan oldin bosilgan sakrash saqlanadi"],
+            ["Coyote Time", "0.150 sek", "9 kadr", "Platformadan yugurib chiqqach sakrash mumkin"],
+            ["Jump Buffer", "0.100 sek", "6 kadr", "Yerga tegishdan oldin bosilgan sakrash saqlanadi"],
             ["Ledge Forgiveness", "±0.35 m", "—", "Qirra ushlash radiusi (kapsula oldida)"],
             ["Rail Magnet", "0.80 m", "—", "Relga yopishish radiusi"],
             ["Wall Stick", "0.55 m", "—", "Devor yugurishi uchun yopishish masofasi"],
@@ -456,7 +456,7 @@ v_out = v_in * PROD(retention_i) + SUM(linkBonus) - drag_loss`}
           ]}
           compact
           rows={[
-            ["Standart", "0.120 s", "0.150 s", "1.20 m", "Asosiy oʻyin, barcha platformalar"],
+            ["Standart", "0.150 s", "0.100 s", "1.20 m", "Asosiy oʻyin, barcha platformalar"],
             [
               "Assisted",
               "0.160 s",
@@ -481,9 +481,9 @@ v_out = v_in * PROD(retention_i) + SUM(linkBonus) - drag_loss`}
 
         <Callout tone="tracer" label="Nega aynan shu sonlar" title="Coyote Time izohi">
           <p>
-            0.120 sek = <B>7 kadr</B>. Inson reaksiyasi (vizuall) ~180–250 ms, yaʼni coyote time
-            ataylab reaksiyadan <B>qisqaroq</B>. Sabab: u reaksiyani “qutqarmaydi”, u faqat{" "}
-            <B>niyatni</B> qutqaradi. Oʻyinchi sakrashni rejalashtirib bosgan boʻlsa, 7 kadr ichida
+            0.150 sek = <B>9 kadr</B>. Inson reaksiyasi (vizuall) ~180–250 ms, yaʼni coyote time
+            hanuz reaksiyadan <B>qisqaroq</B>. Sabab: u reaksiyani “qutqarmaydi”, u faqat{" "}
+            <B>niyatni</B> qutqaradi. Oʻyinchi sakrashni rejalashtirib bosgan boʻlsa, 9 kadr ichida
             platformadan chiqib ketgan boʻlsa ham niyati bajariladi. 0.2 sekundan oshsa — bu
             “adolat” emas, balki harakat hissini buzadigan kechikish.
           </p>
